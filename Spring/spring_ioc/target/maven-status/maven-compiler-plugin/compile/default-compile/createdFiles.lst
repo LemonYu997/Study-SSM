@@ -1,0 +1,9 @@
+service\impl\UserServiceImpl.class
+dao\impl\UserDaoImpl.class
+factory\DynamicFactory.class
+demo\UserDaoDemo.class
+factory\StaticFactory.class
+domain\User.class
+service\UserService.class
+dao\UserDao.class
+demo\UserController.class
