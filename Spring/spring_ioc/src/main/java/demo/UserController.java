@@ -1,10 +1,10 @@
 package demo;
 
-        import org.springframework.context.ApplicationContext;
-        import org.springframework.context.support.ClassPathXmlApplicationContext;
-        import org.springframework.context.support.FileSystemXmlApplicationContext;
-        import service.UserService;
-        import service.impl.UserServiceImpl;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+import service.UserService;
+import service.impl.UserServiceImpl;
 
 public class UserController {
     public static void main(String[] args) {
