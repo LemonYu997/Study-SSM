@@ -4,6 +4,6 @@
     <title>Success</title>
 </head>
 <body>
-    <h1>XML跳转成功</h1>
+<h1>XML跳转成功 ${username}</h1>
 </body>
 </html>

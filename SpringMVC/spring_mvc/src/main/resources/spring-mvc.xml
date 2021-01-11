@@ -6,7 +6,7 @@
        xsi:schemaLocation=
                "http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
                 http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
-                http://www.springframework.org/schema/mvc http://www.springframework.org/schema/context/spring-mvc.xsd">
+                http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!--Controller组件扫描-->
     <context:component-scan base-package="controller">
@@ -21,6 +21,30 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
+    <!--配置处理器适配器-->
+<!--    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+        <property name="messageConverters">
+            <list>
+                <bean class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter" />
+            </list>
+        </property>
+    </bean>-->
+
     <!--开启SpringMVC框架注解的支持-->
-<!--    <mvc:annotation-driven/>-->
+    <mvc:annotation-driven conversion-service="conversionService"/>
+
+    <!--开放资源的访问-->
+    <mvc:resources mapping="/js/**" location="/js/" />
+
+    <!--SpringMVC找不到资源的话，交由原始容器（tomcat）处理-->
+    <mvc:default-servlet-handler />
+
+    <!--声明转换器-->
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <list>
+                <bean class="converter.DateConverter"/>
+            </list>
+        </property>
+    </bean>
 </beans>
