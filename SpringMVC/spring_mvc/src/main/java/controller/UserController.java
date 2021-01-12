@@ -6,11 +6,13 @@ import domain.VO;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
+import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Date;
@@ -210,5 +212,33 @@ public class UserController {
     @RequestMapping(value = "/quick21")
     public void save21(@CookieValue(value = "JSESSIONID", required = false) String jsessionId) {
         System.out.println(jsessionId); //553D8B2168B88FC0943F629469DF95C5
+    }
+
+    //请求：http://localhost:8080/upload.jsp
+    //获取请求参数
+    @ResponseBody   //带上，表示不进行页面跳转
+    @RequestMapping(value = "/quick22")
+    public void save22(String username, MultipartFile uploadFile, MultipartFile uploadFile2) throws IOException {
+        //注意：参数名称要与表单name一致
+        System.out.println(username);   //zhangsan
+        System.out.println(uploadFile); //org.springframework.web.multipart.commons.CommonsMultipartFile@4f648ed3
+        //获得上传文件的名称
+        String originalFilename = uploadFile.getOriginalFilename();
+        uploadFile.transferTo(new File("F:\\java\\upload\\" + originalFilename));
+        String originalFilename2 = uploadFile2.getOriginalFilename();
+        uploadFile.transferTo(new File("F:\\java\\upload\\" + originalFilename2));
+    }
+
+    //请求：http://localhost:8080/upload.jsp
+    //获取请求参数
+    @ResponseBody   //带上，表示不进行页面跳转
+    @RequestMapping(value = "/quick23")
+    public void save23(String username, MultipartFile[] uploadFile) throws IOException {
+        //注意：参数名称要与表单name一致
+        System.out.println(username);   //zhangsan
+        for (MultipartFile file : uploadFile) {
+            String originalFilename = file.getOriginalFilename();
+            file.transferTo(new File("F:\\java\\upload\\" + originalFilename));
+        }
     }
 }
