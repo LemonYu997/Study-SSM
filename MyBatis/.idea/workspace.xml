@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -47,20 +48,31 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis_quick/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis_anno/src/main/resources/mapper" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15546875" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Java\Project\MyBatis\mybatis_anno\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="domain" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\Java\Project\MyBatis\mybatis_quick\src\main\resources" />
+      <recent name="F:\Java\Project\MyBatis\mybatis_anno\src\main\resources\mapper" />
+      <recent name="F:\Java\Project\MyBatis\mybatis_anno\src\main\resources" />
+      <recent name="F:\Java\Project\MyBatis\mybatis_multi\src\main\resources\mapper" />
+      <recent name="F:\Java\Project\MyBatis\mybatis_multi\src\main\resources" />
+      <recent name="F:\Java\Project\MyBatis\mybatis_config\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MyBatisTest.test5">
-    <configuration name="MyBatisTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_quick" />
+  <component name="RunManager" selected="JUnit.MyBatisTest4.test">
+    <configuration name="MyBatisTest2.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_anno" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -68,15 +80,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyBatisTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="test.MyBatisTest2" />
+      <option name="METHOD_NAME" value="testSave" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_quick" />
+    <configuration name="MyBatisTest3.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_anno" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -84,15 +96,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyBatisTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="test.MyBatisTest3" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_quick" />
+    <configuration name="MyBatisTest4.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_anno" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -100,15 +112,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyBatisTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="test.MyBatisTest4" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_quick" />
+    <configuration name="MyBatisTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_anno" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -117,14 +129,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MyBatisTest" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyBatisTest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis_quick" />
+    <configuration name="MyBatisTest.testFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis_anno" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.*" />
@@ -133,7 +145,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.MyBatisTest" />
-      <option name="METHOD_NAME" value="test5" />
+      <option name="METHOD_NAME" value="testFindById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MyBatisTest.test5" />
-        <item itemvalue="JUnit.MyBatisTest.test2" />
-        <item itemvalue="JUnit.MyBatisTest.test1" />
-        <item itemvalue="JUnit.MyBatisTest.test4" />
-        <item itemvalue="JUnit.MyBatisTest.test3" />
+        <item itemvalue="JUnit.MyBatisTest4.test" />
+        <item itemvalue="JUnit.MyBatisTest3.test" />
+        <item itemvalue="JUnit.MyBatisTest2.testSave" />
+        <item itemvalue="JUnit.MyBatisTest.testFindAll" />
+        <item itemvalue="JUnit.MyBatisTest.testFindById" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +172,10 @@
       <option name="presentableId" value="Default" />
       <updated>1610614598410</updated>
       <workItem from="1610614599542" duration="7076000" />
-      <workItem from="1610622002885" duration="2887000" />
+      <workItem from="1610622002885" duration="3000000" />
+      <workItem from="1610699193244" duration="2315000" />
+      <workItem from="1610702623512" duration="11572000" />
+      <workItem from="1610763941731" duration="19524000" />
     </task>
     <servers />
   </component>
@@ -172,45 +187,45 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1139" y="353" width="1178" height="703" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610624606505" />
-    <state x="1446" y="314" key="#com.intellij.ide.util.MemberChooser" timestamp="1610614864537">
+    <state x="1446" y="314" key="#com.intellij.ide.util.MemberChooser" timestamp="1610800832193">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1446" y="314" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610614864537" />
+    <state x="1446" y="314" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610800832193" />
     <state x="1312" y="437" key="FileChooserDialogImpl" timestamp="1610614642349">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1312" y="437" key="FileChooserDialogImpl/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610614642349" />
-    <state width="1643" height="344" key="GridCell.Tab.0.bottom" timestamp="1610625480528">
+    <state width="1643" height="344" key="GridCell.Tab.0.bottom" timestamp="1610802625985">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1643" height="344" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610625480528" />
-    <state width="1643" height="344" key="GridCell.Tab.0.center" timestamp="1610625480528">
+    <state width="1643" height="344" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610802625985" />
+    <state width="1643" height="344" key="GridCell.Tab.0.center" timestamp="1610802625984">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1643" height="344" key="GridCell.Tab.0.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610625480528" />
-    <state width="1643" height="344" key="GridCell.Tab.0.left" timestamp="1610625480528">
+    <state width="1643" height="344" key="GridCell.Tab.0.center/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610802625984" />
+    <state width="1643" height="344" key="GridCell.Tab.0.left" timestamp="1610802625984">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1643" height="344" key="GridCell.Tab.0.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610625480528" />
-    <state width="1643" height="344" key="GridCell.Tab.0.right" timestamp="1610625480528">
+    <state width="1643" height="344" key="GridCell.Tab.0.left/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610802625984" />
+    <state width="1643" height="344" key="GridCell.Tab.0.right" timestamp="1610802625984">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1643" height="344" key="GridCell.Tab.0.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610625480528" />
+    <state width="1643" height="344" key="GridCell.Tab.0.right/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610802625984" />
     <state x="1070" y="263" key="SettingsEditor" timestamp="1610614649502">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1070" y="263" key="SettingsEditor/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610614649502" />
-    <state x="1302" y="488" key="com.intellij.ide.util.TipDialog" timestamp="1610622002434">
+    <state x="1302" y="488" key="com.intellij.ide.util.TipDialog" timestamp="1610763999306">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1302" y="488" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610622002434" />
-    <state x="881" y="302" key="new project wizard" timestamp="1610614618572">
+    <state x="1302" y="488" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610763999306" />
+    <state x="881" y="302" key="new project wizard" timestamp="1610793316812">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="881" y="302" key="new project wizard/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610614618572" />
-    <state x="1264" y="348" width="840" height="1034" key="search.everywhere.popup" timestamp="1610618259967">
+    <state x="881" y="302" key="new project wizard/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610793316812" />
+    <state x="1264" y="348" width="840" height="1034" key="search.everywhere.popup" timestamp="1610794343557">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1264" y="348" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610618259967" />
+    <state x="1264" y="348" width="840" height="1034" key="search.everywhere.popup/0.0.2560.1400/-1440.-557.1440.2520@0.0.2560.1400" timestamp="1610794343557" />
   </component>
 </project>

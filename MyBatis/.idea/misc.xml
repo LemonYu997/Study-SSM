@@ -7,6 +7,11 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/mybatis_quick/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_dao/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_mapper/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_config/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_multi/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatis_anno/pom.xml" />
       </list>
     </option>
   </component>
