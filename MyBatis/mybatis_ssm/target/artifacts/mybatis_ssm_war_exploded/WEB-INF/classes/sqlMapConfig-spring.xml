@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!--定义别名-->
+    <typeAliases>
+        <!--<typeAlias type="domain.Account" alias="account" />-->
+        <!--扫包形式
+            为该包下所有实体创建别名。
+            为该类名或首字母小写名称。以Account类为例：
+            别名就是Account或account
+        -->
+        <package name="domain"/>
+    </typeAliases>
+
+</configuration>
