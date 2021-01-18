@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/children/children.iml" filepath="$PROJECT_DIR$/children/children.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mavenDemo/mavenDemo.iml" filepath="$PROJECT_DIR$/mavenDemo/mavenDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/mavenProjects.iml" filepath="$PROJECT_DIR$/.idea/mavenProjects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_parent/maven_dao/maven_dao.iml" filepath="$PROJECT_DIR$/maven_parent/maven_dao/maven_dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_parent/maven_parent.iml" filepath="$PROJECT_DIR$/maven_parent/maven_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_parent/maven_pojo/maven_pojo.iml" filepath="$PROJECT_DIR$/maven_parent/maven_pojo/maven_pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_parent/maven_service/maven_service.iml" filepath="$PROJECT_DIR$/maven_parent/maven_service/maven_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven_parent/maven_web/maven_web.iml" filepath="$PROJECT_DIR$/maven_parent/maven_web/maven_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent/parent.iml" filepath="$PROJECT_DIR$/parent/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ssmweb/ssmweb.iml" filepath="$PROJECT_DIR$/ssmweb/ssmweb.iml" />
+    </modules>
+  </component>
+</project>
