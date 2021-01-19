@@ -12,5 +12,16 @@
 
     <artifactId>maven_pojo</artifactId>
 
-
+    <!--添加到要上传的项目pom中确定上传路径开始-->
+    <distributionManagement>
+        <repository>
+            <id>releases</id>
+            <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <!--添加到要上传的项目pom中确定上传路径结束-->
 </project>
